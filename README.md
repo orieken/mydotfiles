@@ -9,8 +9,10 @@ left over files from system node install
 
 ### Fix
 
-➜ brew uninstall nvm
+```
+➜ brew uninstall nvm \n
 ➜ brew prune
 ➜ rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
 ➜ brew install nvm
 ➜ nvm install X
+```
